@@ -114,3 +114,79 @@ a {
 .hero_photo {
     width: 100%;
 }
+
+.stats_container {
+    max-width: 800px;
+    margin: 100px auto 120px;
+}
+
+.stats_title {
+    font-family: var(--font-raleway);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--color-black);
+    margin-bottom: 100px;
+}
+
+.stats_box_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats_box {
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    display: block;
+    background: var(--color-redish);
+    position: relative;
+}
+
+.blue_circle {
+    background: var(--color-primary);
+}
+
+.green_circle {
+    background: var(--color-green);
+}
+
+.box_icon {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+.box_icon2 {
+    position: absolute;
+    top: calc(31.5px - 36.5px / 2);
+    left: 35%;
+}
+
+.box_number_text {
+    font-family: var(--font-raleway);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 5.96px;
+    color: var(--color-black);
+    margin-top: 14px;
+    margin-bottom: 19px;
+}
+
+.box_text {
+    font-family: var(--font-raleway);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: var(--color-grey);
+    text-align: center;
+}
