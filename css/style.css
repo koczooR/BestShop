@@ -74,3 +74,43 @@ a {
     color: var(--color-black);
     border-bottom: 4px solid var(--color-primary);
 }
+
+.hero_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.hero_title {
+    font-family: var(--font-raleway);
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 57px;
+    color: var(--color-black);
+    margin-bottom: 20px;
+}
+
+.hero_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--color-black);
+    margin-bottom: 38px;
+}
+
+.hero_btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--color-white);
+    padding: 22px 157px;
+    background: var(--color-primary);
+    border-radius: 40px;
+    box-shadow: 5px 10px 14px var(--color-primary-shadow);
+}
+
+.hero_photo {
+    width: 100%;
+}
