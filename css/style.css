@@ -190,3 +190,117 @@ a {
     color: var(--color-grey);
     text-align: center;
 }
+
+.benefits {
+    background: var(--color-light-grey);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 105px 0 68px 0;
+}
+
+.benefits_container {
+    border: 1px solid #E8E9ED;
+    max-width: 1124px;
+    height: 370px;
+    background: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 37px;
+}
+
+.benefits_text_box {
+    margin: 91px 0 91px 35px;
+}
+
+.benefits_text_box::after {
+    content: '';
+    width: 328px;
+    height: 4px;
+    background: var(--color-redish);
+    display: block;
+}
+
+.benefits_text_box--blueline::after {
+    background: var(--color-primary);
+}
+
+.benefits_title {
+    font-family: var(--font-raleway);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--color-black);
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.benefits_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--color-black);
+    text-align: left;
+    max-width: 416px;
+    margin-bottom: 50px;
+}
+
+.benefits_pic_box {
+    position: relative;
+    margin-top: 113px;
+    margin-right: 117px;
+    margin-bottom: 38px;
+}
+
+.benefits_first_img {
+    width: 386px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.benefits_pic_box::before {
+    content: '';
+    width: 180px;
+    height: 180px;
+    background-color: var(--color-redish);
+    border-radius: 41px;
+    display: block;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+.benefits_second_img {
+    border: 2px solid red;
+    width: 426px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.benefits_pic_box--bluecircle {
+    margin-top: 29px;
+    margin-bottom: 13px;
+    margin-left: 70px;
+}
+
+.benefits_pic_box--bluecircle::before {
+    content: '';
+    width: 320px;
+    height: 320px;
+    background-color: #07ACE6;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -17px;
+    left: 0;
+}
+
+.benefits_text_box--blueline {
+    border: 2px solid red;
+    margin: 69px 20px 71px 0;
+}
