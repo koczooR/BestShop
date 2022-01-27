@@ -193,16 +193,11 @@ a {
 
 .benefits {
     background: var(--color-light-grey);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 105px 0 68px 0;
 }
 
 .benefits_container {
     border: 1px solid #E8E9ED;
-    max-width: 1124px;
     height: 370px;
     background: var(--color-white);
     display: flex;
@@ -212,7 +207,8 @@ a {
 }
 
 .benefits_text_box {
-    margin: 91px 0 91px 35px;
+    margin: 90px 36px;
+    max-width: 416px;
 }
 
 .benefits_text_box::after {
@@ -243,15 +239,12 @@ a {
     line-height: 22px;
     color: var(--color-black);
     text-align: left;
-    max-width: 416px;
     margin-bottom: 50px;
 }
 
 .benefits_pic_box {
     position: relative;
-    margin-top: 113px;
-    margin-right: 117px;
-    margin-bottom: 38px;
+    margin: 113px 117px 38px 0;
 }
 
 .benefits_first_img {
@@ -274,8 +267,11 @@ a {
     right: 0;
 }
 
+.benefits_container2 {
+    flex-direction: row-reverse;
+}
+
 .benefits_second_img {
-    border: 2px solid red;
     width: 426px;
     height: auto;
     position: relative;
@@ -283,9 +279,7 @@ a {
 }
 
 .benefits_pic_box--bluecircle {
-    margin-top: 29px;
-    margin-bottom: 13px;
-    margin-left: 70px;
+    margin: 29px 0 13px 70px;
 }
 
 .benefits_pic_box--bluecircle::before {
@@ -301,6 +295,5 @@ a {
 }
 
 .benefits_text_box--blueline {
-    border: 2px solid red;
-    margin: 69px 20px 71px 0;
+    margin: 70px 20px;
 }
