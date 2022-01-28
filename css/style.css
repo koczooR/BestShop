@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -471,4 +471,142 @@ a {
 
 .pricing_btn--premium {
     background: var(--color-green);
+}
+
+.contact_container {
+    max-width: 900px;
+}
+
+.contact_box {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_title {
+    font-family: var(--font-raleway);
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 57px;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.contact_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 42px;
+}
+
+.contact_text_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon_box {
+    display: flex;
+}
+
+.icon_box a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    color: var(--color-grey);
+    display: flex;
+    align-items: center;
+}
+
+.contact_email {
+    margin-right: 20px;
+}
+
+.contact_email::before,
+.contact_phone::before {
+    content: '';
+    background-image: url(../assets/Mail\ Icon.svg);
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+}
+
+.contact_phone::before {
+    background-image: url(../assets/Phone\ Icon.svg);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form span {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 3.28px;
+    line-height: 15px;
+    text-align: left;
+}
+
+input {
+    width: 440px;
+    padding: 10px 0 2px 0;
+    display: block;
+    border: none;
+    border-bottom: 2px solid var(--color-grey);
+    margin-bottom: 30px;
+}
+
+.contact_footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact_footer button {
+    background: var(--color-primary);
+    border: none;
+    padding: 20px 100px;
+    border-radius: 35px;
+    color: var(--color-white);
+    font-weight: 700;
+    box-shadow: 5px 10px 14px #07ACE629;
+    margin-top: 20px;
+}
+
+.checkbox {
+    cursor: pointer;
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    color: #707070;
+    line-height: 17px;
+    width: 440px;
+}
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.checkbox span {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    flex-basis: 24px;
+    border: 1px solid var(--color-grey);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.checkbox input:checked + span {
+    background-image: url(../assets/Checkmark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
