@@ -37,6 +37,9 @@ a {
     width: 100%;
     background: var(--color-white);
     box-shadow: 0 3px 6px #00000029;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 .header_container {
@@ -81,7 +84,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 130px;
+    margin-top: 200px;
 }
 
 .hero_title {
