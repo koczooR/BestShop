@@ -1,0 +1,49 @@
+.hero {
+    &_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 12.5rem;
+        text-align: center;
+    }
+
+    &_title {
+        font-family: $font-raleway;
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 3.5rem;
+        color: $color-black;
+        margin-bottom: 1rem;
+    }
+
+    &_text {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.375rem;
+        color: $color-black;
+        margin-bottom: 2rem;
+    }
+
+    &_photo {
+        width: 100%;
+    }
+
+    @media (max-width: 790px) {
+        padding: 0 1rem;
+
+        .hero_text {
+            padding: 0 4.375rem;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 1.2rem 0;
+        }
+
+        .hero_photo {
+            width: 220%;
+        }
+    }
+}
