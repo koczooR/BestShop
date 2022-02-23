@@ -15,7 +15,7 @@ a {
     margin: 0 auto;
     max-width: 1352px;
 
-    @media (max-width: 1352px) {
+    @media (max-width: $breakpoint-md) {
         width: 100%;
         padding: 0 1rem;
     }
@@ -30,4 +30,13 @@ a {
     background: $color-primary;
     border-radius: $border-radius;
     box-shadow: 5px 10px 14px $color-primary-shadow;
+}
+
+.circle {
+    width: 3.9375rem;
+    height: 3.9375rem;
+    border-radius: 50%;
+    display: block;
+    background: $color-redish;
+    position: relative;
 }

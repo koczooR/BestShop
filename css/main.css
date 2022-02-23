@@ -475,6 +475,15 @@ a {
   box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
 }
 
+.circle {
+  width: 3.9375rem;
+  height: 3.9375rem;
+  border-radius: 50%;
+  display: block;
+  background: #FB3B64;
+  position: relative;
+}
+
 .header {
   height: 4.375rem;
   width: 100%;
@@ -619,6 +628,80 @@ a {
   }
   .hero .hero_photo {
     width: 220%;
+  }
+}
+
+.stats_container {
+  max-width: 800px;
+  margin: 6.25rem auto 7.5rem;
+}
+.stats_title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  text-align: center;
+  color: #000;
+  margin-bottom: 6.25rem;
+}
+.stats_box_container {
+  display: flex;
+  justify-content: space-between;
+}
+.stats_box {
+  max-width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stats_box .blue_circle {
+  background: #08A6E4;
+}
+.stats_box .green_circle {
+  background: #55DFB4;
+}
+.stats_box .box_icon {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+}
+.stats_box .box_icon2 {
+  position: absolute;
+  top: 20%;
+  left: 47%;
+}
+.stats_box .box_number_text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.25rem;
+  color: #000;
+  margin-top: 0.875rem;
+  margin-bottom: 1.25rem;
+}
+.stats_box .box_text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #A5A5A5;
+  text-align: center;
+  padding: 0 1rem;
+}
+@media (max-width: 790px) {
+  .stats .stats_container {
+    margin: 3rem auto 1rem;
+  }
+  .stats .stats_title {
+    margin-bottom: 2rem;
+  }
+  .stats .stats_box_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stats .box_text {
+    margin-bottom: 2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

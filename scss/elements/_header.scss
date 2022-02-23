@@ -91,7 +91,7 @@
             }
         }
 
-        @media (min-width: 790px) {
+        @media (min-width: $breakpoint-sm) {
             .menu {
                 display: none;
             }
