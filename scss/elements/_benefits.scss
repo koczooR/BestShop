@@ -1,0 +1,221 @@
+.benefits {
+    background: $color-light-grey;
+    padding: 6.5rem 6.25rem 4.25rem 6.25rem;
+
+    &_container {
+        border: 1px solid #E8E9ED;
+        height: 23.125rem;
+        background: $color-white;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-bottom: 2.25rem;
+        max-width: 1150px;
+    }
+
+    &_text_box {
+        margin: 5.625rem 2.25rem;
+        max-width: 416px;
+
+        &::after {
+            content: '';
+            width: 20.5rem;
+            height: 0.25rem;
+            background: $color-redish;
+            display: block;
+        }
+    }
+
+    &_title {
+        font-family: $font-raleway;
+        font-weight: 400;
+        font-size: 2.25rem;
+        line-height: 2.625rem;
+        color: $color-black;
+        text-align: left;
+        margin-bottom: 1.875rem;
+    }
+
+    &_text {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.375rem;
+        color: $color-black;
+        text-align: left;
+        margin-bottom: 3.125rem;
+    }
+
+    &_pic_box {
+        position: relative;
+        margin: 7rem 7.375rem 2.375rem 0;
+
+        &::before {
+            content: '';
+            width: 11.25rem;
+            height: 11.25rem;
+            background-color: $color-redish;
+            border-radius: $border-radius;
+            display: block;
+            transform: rotate(45deg);
+            position: absolute;
+            top: -2.5rem;
+            right: 0;
+        }
+    }
+
+    &_first_img {
+        width: 24.125rem;
+        height: auto;
+        position: relative;
+        z-index: 2;
+    }
+
+    &_container2 {
+        flex-direction: row-reverse;
+    }
+
+    &_second_img {
+        width: 26.625rem;
+        height: auto;
+        position: relative;
+        z-index: 2;
+    }
+
+    .benefits_pic_box--bluecircle {
+        margin: 1.75rem 0 0.75rem 4.375rem;
+
+        &::before {
+            content: '';
+            width: 20rem;
+            height: 20rem;
+            background-color: #07ACE6;
+            border-radius: 50%;
+            display: block;
+            position: absolute;
+            top: -1rem;
+            left: 0;
+        }
+    }
+
+    .benefits_text_box--blueline {
+        margin: 4.375rem 1.25rem;
+
+        &::after {
+            background: $color-primary;
+        }
+    }
+
+    .benefits_text_box--greenline {
+        margin: 4.375rem 2.25rem;
+        max-width: 620px;
+
+        &::after {
+            background: $color-green;
+        }
+    }
+
+    .benefits_trumpet_box {
+        background: $color-green;
+        border: 1px solid #E8E9ED;
+        border-radius: 5px;
+        margin-left: 3.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    &_container3 {
+        background-color: $color-light-grey;
+        border: none;
+    }
+
+    &_third_img {
+        width: 18.5rem;
+        height: auto;
+        margin-top: 3.5rem;
+    }
+
+    .box {
+        border: 1px solid #E8E9ED;
+        height: 23.125rem;
+        max-width: 620px;
+        background: $color-white;
+        border-radius: 5px;
+        margin-bottom: 2.25rem;
+    }
+
+    @media (max-width: $breakpoint-md) {
+        padding: 6.5rem 1rem 4.25rem 1rem;
+
+        .benefits_text_box--greenline::after, .benefits_text_box--blueline::after, .benefits_text_box::after {
+            display: none;
+        }
+
+        .benefits_container {
+            flex-direction: column-reverse;
+
+            .benefits_text_box {
+                margin: 1.5rem 1.5rem 2rem;
+                max-width: none;
+                padding-right: 2rem;
+                width: 100%;
+            }
+        }
+
+        .benefits_text {
+            margin-bottom: 0;
+            width: 100%;
+        }
+
+        .benefits_pic_box {
+            margin: 3rem auto 1rem;
+
+            &::before {
+                content: '';
+                width: 5.625rem;
+                height: 5.625rem;
+                right: -0.75rem;
+                top: -2rem;
+            }
+        }
+
+        .benefits_pic_box--bluecircle {
+            margin: 0 auto;
+
+            &::before {
+                content: '';
+                width: 8.25rem;
+                height: 8.25rem;
+                top: 1rem;
+            }
+        }
+
+        .benefits_first_img {
+            width: 12rem;
+        }
+
+        .benefits_second_img {
+            width: 11rem;
+            top: 2rem;
+        }
+
+        .benefits_container3 {
+            flex-direction: column;
+        }
+
+        .box {
+            max-width: none;
+            margin-bottom: 0;
+        }
+
+        .benefits_text_box--greenline {
+            max-width: none;
+        }
+
+        .benefits_trumpet_box {
+            margin-left: 0;
+        }
+    }
+}

@@ -15,7 +15,7 @@ a {
     margin: 0 auto;
     max-width: 1352px;
 
-    @media (max-width: $breakpoint-md) {
+    @media (max-width: $breakpoint-lg) {
         width: 100%;
         padding: 0 1rem;
     }
