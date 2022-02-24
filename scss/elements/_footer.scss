@@ -1,0 +1,34 @@
+.footer {
+    width: 100%;
+    height: 5.625rem;
+    background: $color-light-grey;
+    box-shadow: $box-shadow-footer;
+
+    &_container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &_logo {
+        font-family: $font-raleway;
+        font-weight: 300;
+        font-size: 1.625rem;
+        line-height: 1.875rem;
+        text-align: left;
+        color: $color-primary;
+    }
+
+    &_text {
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        text-align: left;
+        color: $color-grey;
+    }
+
+    .twitter_logo {
+        margin-right: 1.25rem;
+    }
+}
