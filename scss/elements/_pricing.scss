@@ -1,0 +1,185 @@
+.pricing {
+    background: $color-white;
+    padding: 6.25rem 0 10rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        > h2 {
+            text-align: center;
+            font-family: $font-raleway;
+            font-weight: 400;
+            font-size: 2.25rem;
+            line-height: 2.625rem;
+            color: $color-black;
+        }
+    }
+
+    &_boxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3.125rem;
+    }
+
+    &_box {
+        background: $color-white;
+        border: 1px solid $color-redish;
+        border-radius: 1.125rem;
+        width: 23.25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &_title {
+        margin-top: 2.125rem;
+        margin-bottom: 3.75rem;
+        text-align: center;
+    }
+
+    &_type {
+        font-family: $font-raleway;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: $color-black;
+    }
+
+    &_price {
+        font-weight: 300;
+        font-size: 2.875rem;
+        color: $color-redish;
+        margin-top: 0.875rem;
+        line-height: 3.75rem;
+    }
+
+    .limited {
+        font-family: $font-raleway;
+        font-weight: 700;
+        font-size: 0.75rem;
+        margin-top: 0.25rem;
+    }
+
+    &_list {
+        text-align: center;
+    }
+
+    &_item {
+        font-size: 0.875rem;
+        font-weight: 400;
+        margin-bottom: 1.25rem;
+
+        &::before {
+            content: '';
+            width: 0.75rem;
+            height: 0.75rem;
+            background-image: url(../assets/Ckechmark-1.svg);
+            display: inline-block;
+            margin-right: 0.625rem;
+        }
+    }
+
+    .pricing_item--false::before {
+        background-image: url(../assets/Close.svg);
+    }
+
+    &_btn {
+        padding: 1rem 3.625rem;
+        background: $color-redish;
+        border-radius: 23px;
+        color: $color-white;
+        font-size: 0.875rem;
+        font-weight: 700;
+        position: relative;
+        bottom: -1.5rem;
+    }
+
+    .pricing_box--basic .pricing_price {
+        margin-bottom: 1rem;
+    }
+
+    .pricing_box--professional {
+        width: 25rem;
+        margin: 0 3.75rem;
+        border: 1px solid $color-primary;
+        box-shadow: $box-shadow;
+
+        .pricing_price {
+            color: $color-primary;
+            line-height: 4.375rem;
+        }
+
+        .pricing_btn--professional {
+            background: $color-primary;
+            box-shadow: $box-shadow;
+            padding: 1rem 4rem;
+        }    
+    }
+
+    .pricing_box--professional .pricing_item {
+        margin-bottom: 1.5rem;
+    }
+
+    .pricing_box--premium {
+        border: 1px solid $color-green;
+
+        .pricing_price {
+            color: $color-green;
+        }
+
+        .pricing_btn--premium {
+            background: $color-green;
+        }
+    }
+    
+    @media (max-width: $breakpoint-lg) {
+        .pricing_boxes {
+            flex-direction: column;
+        }
+
+        .pricing_box {
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 3rem;
+        }
+
+        .pricing_btn {
+            top: 7.25rem;
+            left: -50%;
+            transform: translateX(-25%);
+        }
+
+        .pricing_btn--professional {
+            top: 7.5rem;
+            transform: translateX(-20%);
+        }
+
+        .pricing_title {
+            margin: auto 4rem;
+        }
+
+        .pricing_list {
+            margin-bottom: 1.5rem;
+        }
+
+        .pricing_item {
+            margin-top: 1.5rem;
+            width: 10rem;
+            text-align: left;
+        }
+
+        .pricing_box--professional {
+            > .pricing_title {
+                margin: auto 2.5rem;
+            }
+        }
+
+        .pricing_box--premium {
+            > .pricing_title {
+                margin: auto 3rem;
+            }
+        }
+    }
+}

@@ -343,32 +343,32 @@ a {
     margin-bottom: 37px;
 } */
 
-.pricing {
+/* .pricing {
     background: var(--color-white);
     padding: 100px 0 155px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.container > h2 {
+/* .container > h2 {
     text-align: center;
     font-family: var(--font-raleway);
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     color: var(--color-black);
-}
+} */
 
-.pricing_boxes {
+/* .pricing_boxes {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-}
+} */
 
-.pricing_box {
+/* .pricing_box {
     background: var(--color-white);
     border: 1px solid var(--color-redish);
     border-radius: 18px;
@@ -376,60 +376,60 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
-.pricing_title {
+/* .pricing_title {
     margin-top: 34px;
     margin-bottom: 60px;
     text-align: center;
-}
+} */
 
-.pricing_type {
+/* .pricing_type {
     font-family: var(--font-raleway);
     font-size: 20px;
     font-weight: 700;
     color: var(--color-black);
-}
+} */
 
-.pricing_price {
+/* .pricing_price {
     font-weight: 300;
     font-size: 46px;
     color: var(--color-redish);
     margin-top: 14px;
     line-height: 60px;
-}
+} */
 
-.limited {
+/* .limited {
     font-family: var(--font-raleway);
     font-weight: 700;
     font-size: 12px;
     margin-top: 5px;
-}
+} */
 
-.pricing_list {
+/* .pricing_list {
     text-align: center;
-}
+} */
 
-.pricing_item {
+/* .pricing_item {
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 20px;
-}
+} */
 
-.pricing_item::before {
+/* .pricing_item::before {
     content: '';
     width: 11px;
     height: 11px;
     background-image: url(../assets/Ckechmark-1.svg);
     display: inline-block;
     margin-right: 10px;
-}
+} */
 
-.pricing_item--false::before {
+/* .pricing_item--false::before {
     background-image: url(../assets/Close.svg);
-}
+} */
 
-.pricing_btn {
+/* .pricing_btn {
     padding: 16px 57px;
     background: var(--color-redish);
     border-radius: 23px;
@@ -438,45 +438,45 @@ a {
     font-weight: 700;
     position: relative;
     bottom: -25px;
-}
+} */
 
-.pricing_box--basic .pricing_price {
+/* .pricing_box--basic .pricing_price {
     margin-bottom: 17px;
-}
+} */
 
-.pricing_box--professional {
+/* .pricing_box--professional {
     width: 400px;
     margin: 0 60px;
     border: 1px solid #07ACE6;
     box-shadow: 5px 10px 27px #07ACE629;
-}
+} */
 
-.pricing_box--professional .pricing_price {
+/* .pricing_box--professional .pricing_price {
     color: #07ACE6;
     line-height: 70px;
-}
+} */
 
-.pricing_btn--professional {
+/* .pricing_btn--professional {
     background: #07ACE6;
     box-shadow: 5px 10px 14px #07ACE629;
     padding: 16px 65px;
-}
+} */
 
-.pricing_box--professional .pricing_item {
+/* .pricing_box--professional .pricing_item {
     margin-bottom: 25px;
-}
+} */
 
-.pricing_box--premium {
+/* .pricing_box--premium {
     border: 1px solid var(--color-green);
-}
+} */
 
-.pricing_box--premium .pricing_price {
+/* .pricing_box--premium .pricing_price {
     color: var(--color-green);
-}
+} */
 
-.pricing_btn--premium {
+/* .pricing_btn--premium {
     background: var(--color-green);
-}
+} */
 
 .contact_container {
     max-width: 900px;
