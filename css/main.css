@@ -1009,6 +1009,9 @@ a {
   background: #55DFB4;
 }
 @media (max-width: 1352px) {
+  .pricing {
+    padding: 6.25rem 0 5rem 0;
+  }
   .pricing .pricing_boxes {
     flex-direction: column;
   }
@@ -1042,6 +1045,150 @@ a {
   }
   .pricing .pricing_box--premium > .pricing_title {
     margin: auto 3rem;
+  }
+}
+
+.contact_container {
+  max-width: 900px;
+}
+.contact_box {
+  margin-bottom: 3.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+.contact_text_box {
+  display: flex;
+  flex-direction: column;
+}
+.contact_title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.625rem;
+  text-align: left;
+  margin-bottom: 1.375rem;
+}
+.contact_text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  text-align: left;
+  margin-bottom: 2.625rem;
+}
+.contact .icon_box {
+  display: flex;
+}
+.contact .icon_box a {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.275rem;
+  text-align: left;
+  color: #A5A5A5;
+  display: flex;
+  align-items: center;
+}
+.contact .icon_box .contact_email {
+  margin-right: 1.25rem;
+}
+.contact .icon_box .contact_email::before {
+  content: "";
+  display: inline-block;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-right: 0.625rem;
+  background-image: url(../assets/Mail\ Icon.svg);
+}
+.contact .icon_box .contact_phone::before {
+  content: "";
+  display: inline-block;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-right: 0.625rem;
+  background-image: url(../assets/Phone\ Icon.svg);
+}
+.contact .form {
+  display: flex;
+  flex-direction: column;
+}
+.contact .form span {
+  color: #08A6E4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.2rem;
+  line-height: 1rem;
+  text-align: left;
+}
+.contact .form input {
+  width: 27.5rem;
+  padding: 0.625rem 0 0.125rem 0;
+  display: block;
+  border: none;
+  border-bottom: 2px solid #A5A5A5;
+  margin-bottom: 1.875rem;
+}
+.contact_footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.contact_footer button {
+  background: #08A6E4;
+  border: none;
+  padding: 1.25rem 6.25rem;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 5px 10px 14px #07ACE629;
+  margin-top: 1.25rem;
+}
+.contact .checkbox {
+  cursor: pointer;
+  display: flex;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #707070;
+  line-height: 1rem;
+  width: 27.5rem;
+}
+.contact .checkbox input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+.contact .checkbox input:checked + span {
+  background-image: url(../assets/Checkmark.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact .checkbox span {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  flex-basis: 1.5rem;
+  border: 1px solid #A5A5A5;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0.625rem;
+}
+@media (max-width: 1025px) {
+  .contact .contact_box {
+    flex-direction: column;
+  }
+  .contact .icon_box {
+    flex-direction: column;
+  }
+  .contact .icon_box .contact_email {
+    margin-bottom: 0.5rem;
+  }
+  .contact .icon_box .contact_phone {
+    margin-bottom: 2rem;
+  }
+  .contact .checkbox {
+    width: 100%;
+  }
+  .contact .form input {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */

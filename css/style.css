@@ -478,43 +478,43 @@ a {
     background: var(--color-green);
 } */
 
-.contact_container {
+/* .contact_container {
     max-width: 900px;
-}
+} */
 
-.contact_box {
+/* .contact_box {
     margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
-}
+} */
 
-.contact_title {
+/* .contact_title {
     font-family: var(--font-raleway);
     font-weight: 400;
     font-size: 49px;
     line-height: 57px;
     text-align: left;
     margin-bottom: 22px;
-}
+} */
 
-.contact_text {
+/* .contact_text {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     text-align: left;
     margin-bottom: 42px;
-}
+} */
 
-.contact_text_box {
+/* .contact_text_box {
     display: flex;
     flex-direction: column;
-}
+} */
 
-.icon_box {
+/* .icon_box {
     display: flex;
-}
+} */
 
-.icon_box a {
+/* .icon_box a {
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
@@ -522,13 +522,13 @@ a {
     color: var(--color-grey);
     display: flex;
     align-items: center;
-}
+} */
 
-.contact_email {
+/* .contact_email {
     margin-right: 20px;
-}
+} */
 
-.contact_email::before,
+/* .contact_email::before,
 .contact_phone::before {
     content: '';
     background-image: url(../assets/Mail\ Icon.svg);
@@ -540,9 +540,9 @@ a {
 
 .contact_phone::before {
     background-image: url(../assets/Phone\ Icon.svg);
-}
+} */
 
-.form {
+/* .form {
     display: flex;
     flex-direction: column;
 }
@@ -555,23 +555,23 @@ a {
     letter-spacing: 3.28px;
     line-height: 15px;
     text-align: left;
-}
+} */
 
-input {
+/* input {
     width: 440px;
     padding: 10px 0 2px 0;
     display: block;
     border: none;
     border-bottom: 2px solid var(--color-grey);
     margin-bottom: 30px;
-}
+} */
 
-.contact_footer {
+/* .contact_footer {
     display: flex;
     justify-content: flex-end;
-}
+} */
 
-.contact_footer button {
+/* .contact_footer button {
     background: var(--color-primary);
     border: none;
     padding: 20px 100px;
@@ -580,9 +580,9 @@ input {
     font-weight: 700;
     box-shadow: 5px 10px 14px #07ACE629;
     margin-top: 20px;
-}
+} */
 
-.checkbox {
+/* .checkbox {
     cursor: pointer;
     display: flex;
     font-weight: 400;
@@ -590,16 +590,16 @@ input {
     color: #707070;
     line-height: 17px;
     width: 440px;
-}
+} */
 
-.checkbox input {
+/* .checkbox input {
     position: absolute;
     opacity: 0;
     height: 0;
     width: 0;
-}
+} */
 
-.checkbox span {
+/* .checkbox span {
     width: 24px;
     height: 24px;
     flex-shrink: 0;
@@ -608,13 +608,13 @@ input {
     border-radius: 4px;
     cursor: pointer;
     margin-right: 10px;
-}
+} */
 
-.checkbox input:checked + span {
+/* .checkbox input:checked + span {
     background-image: url(../assets/Checkmark.svg);
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 
 .footer {
     width: 100%;
